@@ -9,7 +9,8 @@ export default {
       fontFamily: {
         rale: ['Raleway'],
         lydian: ['Lydian'],
-      }
+      },
+      
     },
   },
   plugins: [],

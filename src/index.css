@@ -9,3 +9,19 @@
     font-family: 'Lydian';
     src: url('./fonts/LYDIAN__.TTF');
 }
+
+
+@layer utilities {
+    @keyframes translateUp {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-10px); 
+      }
+    }
+  
+    .translate-up:hover {
+      animation: translateUp 0.3s ease-out;
+    }
+  }
